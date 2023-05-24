@@ -20,6 +20,8 @@ if ((randomNumber === 1)) {
 }
 console.log(eightBall);
 
+//
+
 switch (randomNumber){
     case (randomNumber=1):
         console.log("It is certain");
@@ -49,6 +51,7 @@ switch (randomNumber){
         console.log(0);
         break;
 }
+
 /* Функциональные выражения.
 Допустим, у нас есть растение, которое нужно поливать раз в неделю по средам. Мы могли бы определить функциональное выражение, которое поможет нам проверить день недели и нужно ли поливать растение:
 Создайте переменную с именем, plantNeedsWater используя const ключевое слово variable.Назначьте анонимную функцию, которая принимает параметр day to plantNeedsWater.
@@ -58,6 +61,7 @@ switch (randomNumber){
 Вызовите plantNeedsWater()и передайте в 'Tuesday' качестве аргумента. Проверим, что plantNeedsWater()вернуло ожидаемое значение.
 Войдите plantNeedsWater('Tuesday')в консоль. Если это сработало правильно, вы должны увидеть false вход в консоль.
  */
+
 const plantNeedsWater = function(day) {
     if (day === 'Wednesday'){
         return true
@@ -77,6 +81,7 @@ plantNeedsWater1('Tuesday')
 console.log (plantNeedsWater1('Wednesday'))
 
 //Стрелочые функции
+
 const plantNeedsWater3 = day => {
     return day === 'Wednesday';
 };
@@ -88,3 +93,23 @@ const squareNum = (num) => {
 const squareNum = num => num * num;
  */
 const plantNeedsWater4 = day => day === 'Wednesday'
+
+// Глобальный масштаб видиния переменных
+
+const satellite = 'The Moon'
+const galaxy = 'The Milky Way'
+const stars ='North Star'
+const callMyNightSky = () =>{
+    return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+}
+console.log (callMyNightSky())
+
+// Локальная переменная
+const logVisibleLightWaves= ()=>{
+    const lightWaves = 'Moonlight'
+    console.log (lightWaves)
+}
+logVisibleLightWaves()
+console.log (lightWaves)
+
+//
