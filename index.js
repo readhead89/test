@@ -1,4 +1,4 @@
 function addName() {
-    console.log('Dima')
+    console.log('1')
 }
 addName()
