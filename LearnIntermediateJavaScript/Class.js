@@ -228,4 +228,3 @@ const surgeonRomero3 = new Surgeon3('Francisco Romero', 'Cardiovascular');
 const surgeonJackson3 = new Surgeon3('Ruth Jackson', 'Orthopedics');
 console.log (surgeonRomero3.name)
 console.log (surgeonRomero3.takeVacationDays(3))
-fdgdgf
