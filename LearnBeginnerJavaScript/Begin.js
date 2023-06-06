@@ -1,5 +1,6 @@
 //Math.random() случайное число
 //Math.floor() случайное целое число
+//Math.floor() округление
 console.log (Math.random()*100)
 console.log (Math.floor(Math.random()*100))
 

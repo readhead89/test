@@ -10,3 +10,7 @@ const unknown3 = true;
 console.log(typeof unknown3); // Output: boolean
 Разберем первый пример. Поскольку значение unknown1равно 'foo', typeof unknown1будет возвращена строка 'string'.
  */
+let newVariable = 'Playing around with typeof.';
+console.log(typeof newVariable)
+newVariable = 1
+console.log(typeof newVariable)
